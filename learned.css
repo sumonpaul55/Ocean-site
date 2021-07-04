@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ============================================ reusable css============================== */
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+.section-title{
+    text-align: center;
+}
+.section-title h3{
+    font-size: 2.8rem;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    color: #252c3a;
+}
+p{
+    color: #5a6e79;
+    font-size: 1rem;
+}
+
+
+
+/* ============================================navbar ========================================*/
+nav{
+    background: transparent !important;
+}
+nav ul li{
+    margin: auto 1rem;
+}
+nav a{
+    color: #5a6e79 !important;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+}
+.nav-active{
+    color: #ffc178 !important;
+    text-decoration: underline;
+}
+nav a:hover{
+    color: #ffc178 !important;
+    text-decoration: underline;
+}
+.nav-btn{
+    background: #ffffff;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    box-shadow: 0 0 1rem #dddcdcb4;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+    color: #ffc178 !important;
+}
+/*=============================================== home section=============================== */
+#home-section{
+    background-image: url('img/bg\ home.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+}
+.header-content h2{
+    color: #ffc178;
+    font-size: 40px;
+}
+
+
+.header-content p{
+    font-size: 18px;
+    color: #5a6e79;
+    font-family: 'Montserrat', sans-serif
+}
+.header-content .content-btn{
+    background: #ffc178;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+}
+/* ========================== Our department section==================================== */
+#department{
+    margin-top: -1rem;
+}
+.section-item .item{
+    background: #f9703a;
+    text-align: center;
+}
+.section-item .item2{
+    background: #80be41;
+}
+.section-item h3{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+.video-section .section-title{
+    text-align: left;
+}
+.video-section .section-title h2{
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.video-section .section-title p{
+    font-size: 1.2rem;
+}
+.play-btn{
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.backgroud-img{
+    border: 6px solid #fdf6ee;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 10px;
+
+}
+.video-section{
+    background: url('img/bg-half-circle.png');
+    background-position: left left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sutuents{
+    font-size: 2.3rem;
+    color: #ffba00;
+    font-family: 'roboto';
+    font-weight: bold;
+}
+.courses{
+    font-size: 2.3rem;
+    color: #ff5f72;
+    font-family: 'roboto';
+    font-weight: bold;
+}
+.Hours-video{
+    font-size: 2.3rem;
+    color: #43cb83;
+    font-family: 'roboto';
+    font-weight: bold;
+}
+span{
+    font-size: 1.2rem;
+    margin: 0; padding: 0;
+    display: block;
+    font-weight: normal;
+}
+
+/* ========================================= university=============================== */
+.university .section-title{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.university span{
+    font-size: 12px;
+    font-family: 'robot';
+    font-weight: normal;
+}
+.university a{
+    color: #000 !important;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.university .card-body a:not(.card-footer a):hover{
+    text-decoration: underline;
+    color: #ffc178 !important;
+
+}
+.university .skills .card{
+    box-shadow: 0 0 1.5rem #d1d0d0;
+}
+
+/* ===================================== footer section========================= */
+#footer-section{
+    background: #252c3a;
+}
+#footer-section p{
+    
+    color: #969595 !important;
+}
+#footer-section h1{
+    line-height: .8;
+    font-weight: 900;
+}
+
+.social-icon ul li a{
+    color: #969595;
+}
+
+.social-icon ul li a:hover{
+    color: blue;
+}
+.footer-content h3{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.footer-content span{
+    font-size: 12px;
+    color: #6b6b6b;
+    display: inline;
+}
+.footer-content ul li{
+    color: #969595;
+    margin: 2rem 0;
+}
+.input-group span{
+    font-size: 12px;
+    background: #ffc178;
+}
+
+.footer-bottom-part ul li{
+    color: #6b6b6b;
+    font-size: 13px;
+    margin: 0 2rem !important;
+}
+.footer-bottom-part .text-left{
+    font-size: 13px;
+}
+
+
+
+/* ============================ media query for under 992 px======================= */
+@media (max-width: 992px){
+    nav ul li{
+        margin: initial !important;
+    }
+    h1, h2, h3{
+        font-size: initial !important;
+    }
+    .header-content{
+        width: initial !important;
+        margin: initial !important;
+        padding: initial !important;
+    }
+    .section-title{
+        width: initial !important;
+    }
+}
+
+
+
+
+
+
